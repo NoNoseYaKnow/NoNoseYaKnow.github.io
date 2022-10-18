@@ -1,1 +1,113 @@
 // app global css in SCSS form
+@import 'node_modules/nord/src/sass/nord.scss';
+
+// Body
+body.body--light {
+  background: $nord4;
+  color: $nord0;
+}
+body.body--dark {
+  background: $nord0;
+  color: $nord6;
+}
+
+// Colors
+.body--light .text-input-primary {
+  color: $nord10;
+}
+.body--dark .text-input-primary {
+  color: $nord8;
+}
+.body--light .bg-input-primary {
+  background: $nord10;
+}
+.body--dark .bg-input-primary {
+  background: $nord8;
+}
+
+// Text Prominence
+.body--light .text-prominence-1 {
+  color: $nord1;
+}
+.body--dark .text-prominence-1 {
+  color: $nord6;
+}
+
+.body--light .text-prominence-2 {
+  color: $nord2;
+}
+.body--dark .text-prominence-2 {
+  color: $nord5;
+}
+
+.body--light .text-prominence-3 {
+  color: $nord3;
+}
+.body--dark .text-prominence-3 {
+  color: $nord4;
+}
+
+// Background Prominence
+.body--light .prominence-0 {
+  background: $nord4;
+}
+.body--dark .prominence-0 {
+  background: $nord0;
+}
+.body--light .prominence-1 {
+  background: $nord4;
+}
+.body--dark .prominence-1 {
+  background: $nord1;
+}
+.body--light .bg-prominence-1 {
+  background: $nord4;
+}
+.body--dark .bg-prominence-1 {
+  background: $nord1;
+}
+
+.body--light .prominence-2 {
+  background: $nord5;
+}
+.body--dark .prominence-2 {
+  background: $nord2;
+}
+.body--light .bg-prominence-2 {
+  background: $nord5;
+}
+.body--dark .bg-prominence-2 {
+  background: $nord2;
+}
+
+.body--light .prominence-3 {
+  background: $nord6;
+}
+.body--dark .prominence-3 {
+  background: $nord3;
+}
+.body--light .bg-prominence-3 {
+  background: $nord6;
+}
+.body--dark .bg-prominence-3 {
+  background: $nord3;
+}
+
+// Top Bar
+.body--light .top-bar {
+  background: $nord5;
+}
+.body--dark .top-bar {
+  background: $nord1;
+}
+
+// Borders
+.rounded-borders-10 {
+  border-radius: 10px !important;
+}
+.rounded-borders-20 {
+  border-radius: 20px !important;
+}
+.rounded-borders-30 {
+  border-radius: 30px !important;
+}
