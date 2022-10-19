@@ -144,3 +144,26 @@ body.body--dark {
   background: $nord8;
   transition: background 0.1s ease-in-out, color 0.2s ease-in-out;
 }
+
+// Policies
+.policy-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: normal;
+  margin-bottom: 0.5rem;
+}
+.policy-header {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125em;
+  margin-bottom: 0.5rem;
+}
+.policy-paragraph {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.01786em;
+  margin-bottom: 0.5rem;
+}
