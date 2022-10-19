@@ -1,10 +1,10 @@
 <template>
-  <q-layout view="lHh Lpr lFf" style="height: 100vh">
+  <q-layout view="lHh Lpr lFf">
     <!-- Header -->
     <q-header elevated>
       <q-toolbar class="top-bar">
         <q-toolbar-title
-          class="text-input-primary text-uppercase"
+          class="text-input-primary text-uppercase text-body1"
           @click="handleTitleClick"
           >Burch Ventures</q-toolbar-title
         >
@@ -16,6 +16,7 @@
           color="input-primary"
           @click="$q.dark.toggle"
         ></q-btn>
+        <q-separator vertical inset color="input-primary" class="q-mx-sm" />
         <q-btn
           flat
           dense
@@ -38,7 +39,7 @@
       <NavigationList></NavigationList>
     </q-drawer>
 
-    <q-page-container style="height: 100%">
+    <q-page-container>
       <router-view />
     </q-page-container>
   </q-layout>
