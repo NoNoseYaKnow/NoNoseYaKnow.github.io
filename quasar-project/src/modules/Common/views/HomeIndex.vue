@@ -1,5 +1,5 @@
 <template>
-  <q-layout container class="gradient-prominence-1">
+  <q-layout class="gradient-prominence-1">
     <!-- Header -->
     <div
       class="text-h2 text-center text-weight-light q-px-md q-pt-md q-pb-xs full-width"
@@ -35,6 +35,7 @@
     <!-- Contact -->
     <div class="q-px-sm q-py-md row full-width justify-center fixed-bottom">
       <q-btn
+        push
         icon="mdi-email"
         label="Business Inquiries Welcome"
         color="input-primary"
