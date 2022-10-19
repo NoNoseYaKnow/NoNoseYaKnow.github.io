@@ -2,7 +2,7 @@
   <q-layout class="gradient-prominence-1">
     <!-- Header -->
     <div
-      class="text-h2 text-center text-weight-light q-px-md q-pt-md q-pb-xs full-width"
+      class="text-h2 text-center text-weight-light q-pt-md q-pb-xs full-width"
     >
       I Build Apps
     </div>
