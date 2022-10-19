@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <q-layout class="gradient-prominence-1"> </q-layout>
 </template>
 
 <script setup lang="ts"></script>
