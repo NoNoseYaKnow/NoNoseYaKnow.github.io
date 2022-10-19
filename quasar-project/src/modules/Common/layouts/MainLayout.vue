@@ -1,8 +1,11 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" style="height: 100vh">
+    <!-- Header -->
     <q-header elevated>
       <q-toolbar class="top-bar">
-        <q-toolbar-title class="text-input-primary text-uppercase"
+        <q-toolbar-title
+          class="text-input-primary text-uppercase"
+          @click="handleTitleClick"
           >Burch Ventures</q-toolbar-title
         >
         <q-btn
@@ -25,51 +28,40 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-list>
-        <q-item-label header> Essential Links </q-item-label>
-
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
+    <!-- Navigation Drawer -->
+    <q-drawer
+      v-model="leftDrawerOpen"
+      show-if-above
+      class="prominence-2 text-prominence-2"
+      side="right"
+    >
+      <NavigationList></NavigationList>
     </q-drawer>
 
-    <q-page-container>
+    <q-page-container style="height: 100%">
       <router-view />
     </q-page-container>
   </q-layout>
 </template>
 
 <script setup lang="ts">
+import NavigationList from "src/modules/Common/components/NavigationList.vue";
+
+import { useRouter } from "vue-router";
 import { ref } from "vue";
 import { useQuasar } from "quasar";
-import EssentialLink, {
-  EssentialLinkProps,
-} from "components/EssentialLink.vue";
 
 const $q = useQuasar();
 
-const essentialLinks: EssentialLinkProps[] = [
-  {
-    title: "Docs",
-    caption: "quasar.dev",
-    icon: "mdi-school",
-    link: "https://quasar.dev",
-  },
-  {
-    title: "Github",
-    caption: "github.com/quasarframework",
-    icon: "code",
-    link: "https://github.com/quasarframework",
-  },
-];
+const router = useRouter();
 
 const leftDrawerOpen = ref(false);
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
+}
+
+function handleTitleClick() {
+  router.push({ name: "Home" });
 }
 </script>
