@@ -5,24 +5,30 @@
 body.body--light {
   background: $nord4;
   color: $nord0;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 body.body--dark {
   background: $nord0;
   color: $nord6;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 // Colors
 .body--light .text-input-primary {
   color: $nord10;
+  transition: color 0.2s ease-in-out;
 }
 .body--dark .text-input-primary {
   color: $nord8;
+  transition: color 0.2s ease-in-out;
 }
 .body--light .bg-input-primary {
   background: $nord10;
+  transition: background 0.2s ease-in-out;
 }
 .body--dark .bg-input-primary {
   background: $nord8;
+  transition: background 0.2s ease-in-out;
 }
 
 // Text Prominence
@@ -93,12 +99,27 @@ body.body--dark {
   background: $nord3;
 }
 
+.body--light .gradient-prominence-1 {
+  // background: linear-gradient(20deg, $nord8, $nord4);
+  background: linear-gradient(4deg, $nord6 0%, $nord4 45%, $nord9 100%);
+  color: $nord5;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.body--dark .gradient-prominence-1 {
+  // background: linear-gradient(20deg, $nord8, $nord2);
+  background: linear-gradient(4deg, $nord1 0%, $nord3 45%, $nord9 100%);
+  color: $nord1;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
 // Top Bar
 .body--light .top-bar {
   background: $nord5;
+  transition: background 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 .body--dark .top-bar {
   background: $nord1;
+  transition: background 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 
 // Borders
@@ -110,4 +131,16 @@ body.body--dark {
 }
 .rounded-borders-30 {
   border-radius: 30px !important;
+}
+
+// Navigation
+.body--light .active-link {
+  color: $nord6;
+  background: $nord10;
+  transition: background 0.1s ease-in-out, color 0.2s ease-in-out;
+}
+.body--dark .active-link {
+  color: $nord1;
+  background: $nord8;
+  transition: background 0.1s ease-in-out, color 0.2s ease-in-out;
 }
