@@ -102,7 +102,7 @@ body.body--dark {
 .body--light .gradient-prominence-1 {
   // background: linear-gradient(20deg, $nord8, $nord4);
   background: linear-gradient(4deg, $nord6 0%, $nord4 45%, $nord9 100%);
-  color: $nord5;
+  color: $nord6;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .body--dark .gradient-prominence-1 {
