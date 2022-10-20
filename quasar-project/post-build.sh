@@ -2,7 +2,7 @@
 
 rm -r ../assets
 rm ../index.html
-rm ../icons
+rm -r ../icons
 rm ../favicon.ico
 
 mv ./dist/spa/assets ../assets
