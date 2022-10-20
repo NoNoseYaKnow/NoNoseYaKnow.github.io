@@ -10,6 +10,14 @@
       ></q-img>
     </div>
 
+    <!-- Statement -->
+    <div class="q-px-sm q-pt-md q-pb-md row full-width justify-center">
+      <ShowcaseStatement>
+        Empowering users to take charge of their mental and physical health by
+        gaining the insights needed to improve their dietary habits!
+      </ShowcaseStatement>
+    </div>
+
     <!-- Screenshots -->
     <NutralyzCarousel></NutralyzCarousel>
 
@@ -39,6 +47,7 @@
 
 <script setup lang="ts">
 import NutralyzCarousel from "src/modules/Nutralyz/components/NutralyzCarousel.vue";
+import ShowcaseStatement from "src/modules/Common/components/ShowcaseStatement.vue";
 
 function handleAppleClick() {
   window.open("", "_blank");
