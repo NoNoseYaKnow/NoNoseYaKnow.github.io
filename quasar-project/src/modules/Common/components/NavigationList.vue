@@ -31,11 +31,13 @@
           icon="mdi-text-box-multiple-outline"
           :to="{ name: 'NutralyzTerms' }"
         ></NavigationItem>
+        <!--
         <NavigationItem
           label="Technical Specifications"
           icon="mdi-application-braces-outline"
           :to="{ name: 'NutralyzSpecs' }"
         ></NavigationItem>
+        -->
       </q-list>
     </q-expansion-item>
 
@@ -47,11 +49,13 @@
           icon="mdi-projector-screen-outline"
           :to="{ name: 'InventoryShowcase' }"
         ></NavigationItem>
+        <!--
         <NavigationItem
           label="Technical Specifications"
           icon="mdi-application-braces-outline"
           :to="{ name: 'InventorySpecs' }"
         ></NavigationItem>
+        -->
       </q-list>
     </q-expansion-item>
   </q-list>
