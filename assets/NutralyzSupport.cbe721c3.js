@@ -1,0 +1,1 @@
+import{b as r}from"./QLayout.d9b85346.js";import{a1 as a,C as e,D as o}from"./index.7b9a736d.js";import"./dom.25f94f56.js";const t={};function c(n,s){return e(),o(r,{class:"gradient-prominence-1"})}var i=a(t,[["render",c]]);export{i as default};
