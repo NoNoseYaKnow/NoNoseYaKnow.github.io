@@ -3,11 +3,14 @@
     <!-- Header -->
     <q-header elevated>
       <q-toolbar class="top-bar">
-        <q-toolbar-title
-          class="text-input-primary text-uppercase text-body1"
-          @click="handleTitleClick"
-          >Burch Ventures</q-toolbar-title
-        >
+        <q-toolbar-title class="text-input-primary text-uppercase text-body1">
+          <div
+            style="cursor: pointer; width: fit-content"
+            @click="handleTitleClick"
+          >
+            Burch Ventures
+          </div>
+        </q-toolbar-title>
         <q-btn
           flat
           dense
