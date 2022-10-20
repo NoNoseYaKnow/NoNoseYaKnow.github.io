@@ -14,13 +14,6 @@
         fit="contain"
       />
     </ShowcaseSlide>
-    <ShowcaseSlide :name="4">
-      <q-img
-        src="~assets/img/invAssistant/screen4.png"
-        class="rounded-borders-20 shadow-2 showcase-screenshot-wide"
-        fit="contain"
-      />
-    </ShowcaseSlide>
     <ShowcaseSlide :name="5">
       <q-img
         src="~assets/img/invAssistant/screen5.png"
@@ -52,6 +45,13 @@
     <ShowcaseSlide :name="3">
       <q-img
         src="~assets/img/invAssistant/screen3.png"
+        class="rounded-borders-20 shadow-2 showcase-screenshot-wide"
+        fit="contain"
+      />
+    </ShowcaseSlide>
+    <ShowcaseSlide :name="4">
+      <q-img
+        src="~assets/img/invAssistant/screen4.png"
         class="rounded-borders-20 shadow-2 showcase-screenshot-wide"
         fit="contain"
       />
