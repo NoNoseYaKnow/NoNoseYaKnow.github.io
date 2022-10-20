@@ -13,7 +13,7 @@
     <!-- Nutralyz -->
     <div class="q-px-sm q-py-md row full-width justify-center">
       <q-img
-        class="rounded-borders-10 shadow-2"
+        class="rounded-borders-10 shadow-2 cursor-pointer"
         src="~assets/img/nutralyz/feature-graphic.png"
         fit="contain"
         style="max-width: 800px"
@@ -24,7 +24,7 @@
     <!-- Inventory Assistant -->
     <div class="q-px-sm q-py-md row full-width justify-center">
       <q-img
-        class="rounded-borders-10 shadow-2"
+        class="rounded-borders-10 shadow-2 cursor-pointer"
         src="~assets/img/invAssistant/feature-graphic.png"
         fit="contain"
         style="max-width: 800px"
