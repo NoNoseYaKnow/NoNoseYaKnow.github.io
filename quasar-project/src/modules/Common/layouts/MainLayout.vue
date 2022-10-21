@@ -3,7 +3,28 @@
     <!-- Header -->
     <q-header elevated>
       <q-toolbar class="top-bar">
-        <q-toolbar-title class="text-input-primary text-uppercase text-body1">
+        <!-- Logo -->
+        <q-img
+          v-if="$q.dark.isActive"
+          src="~assets/img/favicon-96x96_standard.png"
+          width="22px"
+          height="22px"
+          class="cursor-pointer"
+          @click="handleTitleClick"
+        ></q-img>
+        <q-img
+          v-else
+          src="~assets/img/favicon-96x96_nord8.png"
+          width="22px"
+          height="22px"
+          class="cursor-pointer"
+          @click="handleTitleClick"
+        ></q-img>
+
+        <!-- Title -->
+        <q-toolbar-title
+          class="text-input-primary text-uppercase text-body1 q-pl-md"
+        >
           <div
             style="cursor: pointer; width: fit-content"
             @click="handleTitleClick"
@@ -11,6 +32,8 @@
             Burch Ventures
           </div>
         </q-toolbar-title>
+
+        <!-- Light/Dark Toggle -->
         <q-btn
           flat
           dense
@@ -20,6 +43,8 @@
           @click="$q.dark.toggle"
         ></q-btn>
         <q-separator vertical inset color="input-primary" class="q-mx-sm" />
+
+        <!-- Menu -->
         <q-btn
           flat
           dense
