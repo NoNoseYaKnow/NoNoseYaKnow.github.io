@@ -23,7 +23,7 @@
 
         <!-- Title -->
         <q-toolbar-title
-          class="text-input-primary text-uppercase text-body1 q-pl-md"
+          class="text-input-primary text-uppercase text-weight-light text-h6 q-pl-md"
         >
           <div
             style="cursor: pointer; width: fit-content"
