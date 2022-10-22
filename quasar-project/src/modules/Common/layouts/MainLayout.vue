@@ -14,7 +14,7 @@
         ></q-img>
         <q-img
           v-else
-          src="~assets/img/favicon-96x96_nord8.png"
+          src="~assets/img/favicon-96x96_nord10.png"
           width="22px"
           height="22px"
           class="cursor-pointer"
