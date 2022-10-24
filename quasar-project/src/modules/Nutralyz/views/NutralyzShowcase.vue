@@ -24,7 +24,6 @@
     <!-- Store Links -->
     <div class="row justify-center items-center q-pt-sm">
       <q-img
-        v-if="false"
         src="~assets/img/app-store-badge.svg"
         fit="contain"
         style="max-width: 250px; max-height: 76px; cursor: pointer"
@@ -50,7 +49,7 @@ import NutralyzCarousel from "src/modules/Nutralyz/components/NutralyzCarousel.v
 import ShowcaseStatement from "src/modules/Common/components/ShowcaseStatement.vue";
 
 function handleAppleClick() {
-  window.open("", "_blank");
+  window.open("https://apps.apple.com/app/id6443520011", "_blank");
 }
 
 function handleGoogleClick() {
