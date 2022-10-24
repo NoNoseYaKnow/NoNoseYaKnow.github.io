@@ -3,24 +3,6 @@
     <!-- Header -->
     <q-header elevated>
       <q-toolbar class="top-bar">
-        <!-- Logo -->
-        <q-img
-          v-if="$q.dark.isActive"
-          src="~assets/img/favicon-96x96_standard.png"
-          width="22px"
-          height="22px"
-          class="cursor-pointer"
-          @click="handleTitleClick"
-        ></q-img>
-        <q-img
-          v-else
-          src="~assets/img/favicon-96x96_nord10.png"
-          width="22px"
-          height="22px"
-          class="cursor-pointer"
-          @click="handleTitleClick"
-        ></q-img>
-
         <!-- Title -->
         <q-toolbar-title
           class="text-input-primary text-uppercase text-weight-light text-h6 q-pl-md"
