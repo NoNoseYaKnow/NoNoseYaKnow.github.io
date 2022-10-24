@@ -7,6 +7,7 @@
         src="~assets/img/nutralyz/feature-graphic.png"
         fit="contain"
         style="width: 84vw; max-width: 800px"
+        @click="handleFeatureGraphicClick"
       ></q-img>
     </div>
 
@@ -48,6 +49,10 @@
 import NutralyzCarousel from "src/modules/Nutralyz/components/NutralyzCarousel.vue";
 import ShowcaseStatement from "src/modules/Common/components/ShowcaseStatement.vue";
 
+import { useQuasar } from "quasar";
+
+const $q = useQuasar();
+
 function handleAppleClick() {
   window.open("https://apps.apple.com/app/id6443520011", "_blank");
 }
@@ -57,6 +62,14 @@ function handleGoogleClick() {
     "https://play.google.com/store/apps/details?id=com.nutralyz",
     "_blank",
   );
+}
+
+function handleFeatureGraphicClick() {
+  if ($q.platform.is.ios) {
+    handleAppleClick();
+  } else if ($q.platform.is.android) {
+    handleGoogleClick();
+  }
 }
 </script>
 
