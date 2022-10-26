@@ -53,11 +53,11 @@ import { useQuasar } from "quasar";
 
 const $q = useQuasar();
 
-function handleAppleClick() {
+function handleAppleClick(): void {
   window.open("https://apps.apple.com/app/id6443520011", "_blank");
 }
 
-function handleGoogleClick() {
+function handleGoogleClick(): void {
   window.open(
     "https://play.google.com/store/apps/details?id=com.nutralyz",
     "_blank",

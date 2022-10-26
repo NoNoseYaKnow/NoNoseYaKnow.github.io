@@ -51,11 +51,11 @@ import { useRouter } from "vue-router";
 
 const router = useRouter();
 
-function handleNutralyzClick() {
+function handleNutralyzClick(): void {
   router.push({ name: "NutralyzShowcase" });
 }
 
-function handleInventoryClick() {
+function handleInventoryClick(): void {
   router.push({ name: "InventoryShowcase" });
 }
 </script>
