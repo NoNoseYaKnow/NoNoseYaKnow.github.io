@@ -38,6 +38,11 @@
       ></q-img>
     </div>
 
+    <!-- Features -->
+    <div class="q-px-sm q-pt-lg q-pb-md row full-width justify-center">
+      <NutralyzFeatures></NutralyzFeatures>
+    </div>
+
     <!-- Legal -->
     <div class="row justify-start text-subtitle text-prominence-3 q-px-sm">
       Google Play and the Google Play logo are trademarks of Google LLC
@@ -48,6 +53,7 @@
 <script setup lang="ts">
 import NutralyzCarousel from "src/modules/Nutralyz/components/NutralyzCarousel.vue";
 import ShowcaseStatement from "src/modules/Common/components/ShowcaseStatement.vue";
+import NutralyzFeatures from "src/modules/Nutralyz/components/NutralyzFeatures.vue";
 
 import { useQuasar } from "quasar";
 
@@ -64,7 +70,7 @@ function handleGoogleClick(): void {
   );
 }
 
-function handleFeatureGraphicClick() {
+function handleFeatureGraphicClick(): void {
   if ($q.platform.is.ios) {
     handleAppleClick();
   } else if ($q.platform.is.android) {
