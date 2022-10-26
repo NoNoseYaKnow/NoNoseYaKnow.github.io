@@ -43,7 +43,7 @@
     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
-      class="prominence-2 text-prominence-2"
+      class="prominence-2 text-prominence-2 shadow-4"
       side="right"
     >
       <NavigationList></NavigationList>
