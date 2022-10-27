@@ -5,11 +5,6 @@
       {{ feature.title }}
     </div>
 
-    <!-- Subtitle -->
-    <div v-if="false" class="row full-width text-body1 text-weight-bold">
-      {{ feature.subtitle }}
-    </div>
-
     <!-- Highlights -->
     <div class="row full-width text-body1 rounded-borders-10">
       <ul style="margin-top: 4px; margin-bottom: 16px; padding-left: 28px">
@@ -28,7 +23,6 @@
 <script setup lang="ts">
 export interface ShowcaseFeature {
   title?: string;
-  subtitle?: string;
   highlights?: string[];
 }
 export interface ShowcaseFeatureSectionProps {
@@ -37,7 +31,6 @@ export interface ShowcaseFeatureSectionProps {
 withDefaults(defineProps<ShowcaseFeatureSectionProps>(), {
   feature: () => ({
     title: "Feature Title",
-    subtitle: "",
     highlights: ["Feature Highlight 1", "Feature Highlight 2"],
   }),
 });
