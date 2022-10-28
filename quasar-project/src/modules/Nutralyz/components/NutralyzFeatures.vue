@@ -65,6 +65,39 @@ const nutralyzFeatures: ShowcaseFeature[] = [
       "Browse recipes by name, category, or diet/allergy filters",
     ],
   },
+  {
+    title: "Custom Supplements",
+    highlights: [
+      "Create custom supplements to track the nutrients you take in supplement form",
+      "Supplements can be added to your daily log or meal plans just like foods or recipes",
+      "Supplements can be linked to a barcode for quick scanning",
+      "Any nutrient or ingredient can be added to a supplement, including custom ones",
+      "Custom nutrients/ingredients can have a specific daily goal set for them as well, great for tracking caffeine or nootropics",
+    ],
+  },
+  {
+    title: "Personalized Goals",
+    highlights: [
+      "Use the default nutrient daily values from a 2000 calorie diet, or set your own goals",
+      "Daily goals can be set for any nutrient, including custom ones",
+      "View the macro percentages for your daily goals as you modify them in real-time",
+    ],
+  },
+  {
+    title: "Calorie Calculator",
+    highlights: [
+      "Instead of manually setting nutrient goals, the calorie calculator can be used to determine a target daily caloric goal",
+      "The rest of the nutrient goals can be automatically adjusted based on your daily caloric goal if desired, or tweaked individually",
+      "Caloric goal calculated using your sex, age, height, weight, activity level, and weight loss/gain desired",
+    ],
+  },
+  {
+    title: "Dark/Light Mode",
+    highlights: [
+      "Toggle between light and dark mode to suit your preferences",
+      "Dark and light themes based on the elegant Nord color palette",
+    ],
+  },
 ];
 </script>
 
