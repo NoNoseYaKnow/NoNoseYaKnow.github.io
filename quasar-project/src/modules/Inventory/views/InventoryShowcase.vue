@@ -20,12 +20,18 @@
 
     <!-- Screenshots -->
     <InventoryCarousel></InventoryCarousel>
+
+    <!-- Features -->
+    <div class="q-px-sm q-pt-lg q-pb-md row full-width justify-center">
+      <InventoryFeatures></InventoryFeatures>
+    </div>
   </q-layout>
 </template>
 
 <script setup lang="ts">
 import InventoryCarousel from "src/modules/Inventory/components/InventoryCarousel.vue";
 import ShowcaseStatement from "src/modules/Common/components/ShowcaseStatement.vue";
+import InventoryFeatures from "src/modules/Inventory/components/InventoryFeatures.vue";
 </script>
 
 <style></style>
