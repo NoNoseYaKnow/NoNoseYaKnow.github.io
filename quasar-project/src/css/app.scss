@@ -100,14 +100,12 @@ body.body--dark {
 }
 
 .body--light .gradient-prominence-1 {
-  // background: linear-gradient(20deg, $nord8, $nord4);
-  background: linear-gradient(4deg, $nord6 0%, $nord4 45%, $nord9 100%);
+  background: linear-gradient(4deg, $nord5 0%, $nord4 45%, $nord9 100%);
   color: $nord6;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .body--dark .gradient-prominence-1 {
-  // background: linear-gradient(20deg, $nord8, $nord2);
-  background: linear-gradient(4deg, $nord1 0%, $nord3 45%, $nord9 100%);
+  background: linear-gradient(4deg, $nord2 0%, $nord1 45%, $nord9 100%);
   color: $nord1;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
