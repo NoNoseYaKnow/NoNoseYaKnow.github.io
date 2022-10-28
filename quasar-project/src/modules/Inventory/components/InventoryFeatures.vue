@@ -16,6 +16,10 @@ const inventoryFeatures: ShowcaseFeature[] = [
       "Filter jobs by status, technician, or date range",
     ],
   },
+  {
+    title: "Many More...",
+    highlights: [""],
+  },
 ];
 </script>
 
