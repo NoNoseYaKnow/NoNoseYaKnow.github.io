@@ -133,6 +133,28 @@ const nutralyzFeatures: ShowcaseFeature[] = [
       "Substitution suggestions learn user preferences anonymously over time from all users, and will be more accurate the more the feature is used",
     ],
   },
+  {
+    title: "Cloud Backup",
+    highlights: [
+      "Pro users can sync their data across all devices with a single account",
+      "Daily logs, meal plans, and custom foods/supplements will all be backed up to the cloud",
+    ],
+  },
+  {
+    title: "Tutorials & Tips",
+    highlights: [
+      "Straightforward interactive tutorials built in to the app to help getting started with the main features",
+      "Helpful tips for the current page can be triggered as needed from the tutorial list",
+    ],
+  },
+  {
+    title: "History Chart",
+    highlights: [
+      "View a history chart of your daily nutrition, mood, activity level, and water consumption",
+      "Select any date range quickly from calendar view, with presets for past week, 2 weeks, month, and year",
+      "Select up to three individual nutrients to view on the chart alongside other health trends",
+    ],
+  },
 ];
 </script>
 
