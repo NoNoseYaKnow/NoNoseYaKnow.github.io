@@ -9,8 +9,12 @@ import { ShowcaseFeature } from "src/modules/Common/components/ShowcaseFeatureSe
 
 const inventoryFeatures: ShowcaseFeature[] = [
   {
-    title: "",
-    highlights: [""],
+    title: "Job Tracking",
+    highlights: [
+      "Keep track of all company jobs on a daily basis, with job number, address, sale price, and job details",
+      "Technicians can view jobs assigned to themselves, while inventory or admin employees can see all jobs",
+      "Filter jobs by status, technician, or date range",
+    ],
   },
 ];
 </script>
