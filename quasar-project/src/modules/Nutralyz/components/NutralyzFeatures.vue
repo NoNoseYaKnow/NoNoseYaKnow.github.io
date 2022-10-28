@@ -35,8 +35,8 @@ const nutralyzFeatures: ShowcaseFeature[] = [
     highlights: [
       "Log foods & supplements eaten throughout the day",
       "View daily totals for calories, nutrients, and macronutrients as they update in real-time",
-      "Totals represented as a percentage of daily goals, including a total progress bar",
-      "Calendar view to quickly navigate to past days or preview your food planned for tomorrow",
+      "Nutrient totals represented as a percentage of daily goals, including a total progress bar",
+      "Calendar navigation to quickly view past days' logs or preview your food planned for tomorrow",
       "Users on pro plan can freely edit any past logs if they need to make changes",
     ],
   },
@@ -46,6 +46,23 @@ const nutralyzFeatures: ShowcaseFeature[] = [
       "Rate your mood and give a rough estimate of your level of exercise/activity each day",
       "Track how much water you consume each day, with settings for a custom goal and custom glass & bottle sizes for quick logging",
       "All of these factors can be viewed alongside nutrition in the history chart to see how all of these factors interact in your daily life",
+    ],
+  },
+  {
+    title: "Meal Planning",
+    highlights: [
+      "Creation of weekly meal plans, containing daily meal plans and individual meals",
+      "Nutrition data for meal plans updates in real-time with every change to assist in fine tuning your plans",
+      "Meal plans can be activated and foods will show up in your daily log for the days they are scheduled, ready to be instantly logged",
+      "Meal plans can be cloned to quickly create new plans with similar foods",
+    ],
+  },
+  {
+    title: "Recipe Database",
+    highlights: [
+      "Over 2.3 million recipes from 500+ top food blogs and websites, ready to be added to meal plans",
+      "Full nutritional information for each recipe, including a breakdown of calories, macronutrients, micronutrients, and ingredient list",
+      "Browse recipes by name, category, or diet/allergy filters",
     ],
   },
 ];
