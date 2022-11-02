@@ -14,7 +14,11 @@
     </q-item>
 
     <!-- Nutralyz -->
-    <q-expansion-item label="Nutralyz" default-opened>
+    <q-expansion-item
+      label="Nutralyz"
+      default-opened
+      header-class="text-weight-bold"
+    >
       <q-list dense class="text-body1">
         <NavigationItem
           label="Showcase"
@@ -31,31 +35,31 @@
           icon="mdi-text-box-multiple-outline"
           :to="{ name: 'NutralyzTerms' }"
         ></NavigationItem>
-        <!--
         <NavigationItem
-          label="Technical Specifications"
+          label="Development"
           icon="mdi-application-braces-outline"
           :to="{ name: 'NutralyzSpecs' }"
         ></NavigationItem>
-        -->
       </q-list>
     </q-expansion-item>
 
     <!-- Inventory Assistant -->
-    <q-expansion-item label="Inventory Assistant" default-opened>
-      <q-list dense class="q-pl-sm text-body1">
+    <q-expansion-item
+      label="Inventory Assistant"
+      default-opened
+      header-class="text-weight-bold"
+    >
+      <q-list dense class="text-body1">
         <NavigationItem
           label="Showcase"
           icon="mdi-projector-screen-outline"
           :to="{ name: 'InventoryShowcase' }"
         ></NavigationItem>
-        <!--
         <NavigationItem
-          label="Technical Specifications"
+          label="Development"
           icon="mdi-application-braces-outline"
           :to="{ name: 'InventorySpecs' }"
         ></NavigationItem>
-        -->
       </q-list>
     </q-expansion-item>
   </q-list>
