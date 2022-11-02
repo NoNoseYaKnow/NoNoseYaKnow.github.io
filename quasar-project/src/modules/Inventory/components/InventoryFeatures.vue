@@ -18,7 +18,7 @@ const inventoryFeatures: ShowcaseFeature[] = [
   },
   {
     title: "Many More...",
-    highlights: [""],
+    highlights: ["Details coming soon"],
   },
 ];
 </script>
