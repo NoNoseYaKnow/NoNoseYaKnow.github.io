@@ -11,6 +11,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import("src/modules/Common/views/HomeIndex.vue"),
         name: "Home",
       },
+      {
+        path: "about",
+        component: () => import("src/modules/Common/views/AboutMe.vue"),
+        name: "About",
+      },
 
       /* Nutralyz Routes */
       {

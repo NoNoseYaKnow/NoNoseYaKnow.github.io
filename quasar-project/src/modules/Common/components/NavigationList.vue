@@ -1,5 +1,6 @@
 <template>
   <q-list class="text-body1">
+    <!-- Home -->
     <q-item
       v-ripple
       :to="{ name: 'Home' }"
@@ -11,6 +12,20 @@
         <q-icon name="mdi-home-outline"></q-icon>
       </q-item-section>
       <q-item-section>Burch Ventures Home</q-item-section>
+    </q-item>
+
+    <!-- About Me -->
+    <q-item
+      v-ripple
+      :to="{ name: 'About' }"
+      exact
+      active-class="active-link"
+      clickable
+    >
+      <q-item-section avatar>
+        <q-icon name="mdi-account-tie"></q-icon>
+      </q-item-section>
+      <q-item-section>About Me</q-item-section>
     </q-item>
 
     <!-- Nutralyz -->
