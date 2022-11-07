@@ -5,7 +5,7 @@
   >
     <!-- Title -->
     <q-card-section
-      class="text-h5 text-weight-bold q-pb-xs"
+      class="text-h5 text-weight-bold q-pb-xs text-center"
       style="text-decoration: underline"
     >
       {{ title }}
