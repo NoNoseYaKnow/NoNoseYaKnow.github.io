@@ -51,6 +51,7 @@
                 label="Email"
                 color="input-primary"
                 class="full-width text-white"
+                href="mailto:josh@burchventures.com?subject=Business%20Inquiry"
               ></q-btn>
             </div>
             <div class="q-pa-sm full-width">
