@@ -62,6 +62,8 @@
                 label="Github"
                 class="full-width text-white"
                 style="background-color: #24292e"
+                href="https://github.com/NoNoseYaKnow"
+                target="_blank"
               ></q-btn>
             </div>
             <div class="q-pa-sm full-width">
