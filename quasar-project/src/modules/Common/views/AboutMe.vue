@@ -74,6 +74,7 @@
                 label="LinkedIn"
                 class="full-width text-white"
                 style="background-color: #0077b5"
+                @click="comingSoonAlert"
               ></q-btn>
             </div>
           </div>
@@ -87,6 +88,10 @@
 import { useQuasar } from "quasar";
 
 const $q = useQuasar();
+
+const comingSoonAlert = () => {
+  window.alert("Coming Soon!");
+};
 </script>
 
 <style>
