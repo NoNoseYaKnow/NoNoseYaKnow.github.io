@@ -53,6 +53,10 @@ body.body--dark {
   color: $nord4;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 // Background Prominence
 .body--light .prominence-0 {
   background: $nord4;
