@@ -4,7 +4,7 @@
     animated
     arrows
     infinite
-    style="height: 85vh; max-height: 900px"
+    style="height: 95vh; max-height: 900px"
     :style="wideShots ? 'height: 80vh; max-height: 800px' : ''"
     class="transparent"
     control-color="input-primary"
