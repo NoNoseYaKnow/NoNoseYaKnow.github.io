@@ -223,7 +223,7 @@
     </p>
 
     <div class="policy-header">Governing Law and Jurisdiction</div>
-    <p class="policy-paragraph">
+    <p class="policy-paragraph q-pb-xs">
       This EULA shall be deemed to be construed under the jurisdiction of the
       courts located in Missouri, without regard to conflicts of laws as regards
       the provisions thereof. Any legal action relating to this EULA shall be

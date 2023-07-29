@@ -7,13 +7,7 @@
         icon="mdi-shield-account"
         label="Nutralyz Privacy Policy"
       >
-        <q-btn
-          flat
-          color="input-primary"
-          style="text-decoration: underline"
-          label="Nutralyz Privacy Policy"
-          href="https://pages.flycricket.io/nutralyz/privacy.html"
-        ></q-btn>
+        <PrivacyPolicy></PrivacyPolicy>
       </PolicyExpander>
     </div>
 
@@ -50,6 +44,7 @@
 <script setup lang="ts">
 import PolicyExpander from "src/modules/Nutralyz/components/PolicyExpander.vue";
 import GoogleEula from "src/modules/Nutralyz/components/GoogleEula.vue";
+import PrivacyPolicy from "src/modules/Nutralyz/components/PrivacyPolicy.vue";
 
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
