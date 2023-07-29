@@ -24,12 +24,14 @@
             <div class="q-pa-xs full-width">
               Languages:
               <span class="text-weight-bold"
-                >JavaScript, Python, HTML, CSS</span
+                >JavaScript, Python, HTML, CSS, Java, SQL</span
               >
             </div>
             <div class="q-pa-sm full-width">
               Frameworks/Libraries:
-              <span class="text-weight-bold">Vue, Quasar, Django</span>
+              <span class="text-weight-bold"
+                >Vue 2/3, Quasar, Django, Spring MVC</span
+              >
             </div>
             <div class="q-pa-sm full-width">
               Other:
@@ -74,7 +76,8 @@
                 label="LinkedIn"
                 class="full-width text-white"
                 style="background-color: #0077b5"
-                @click="comingSoonAlert"
+                href="https://www.linkedin.com/in/josh-burch-a8b8a426a"
+                target="_blank"
               ></q-btn>
             </div>
           </div>
@@ -88,10 +91,6 @@
 import { useQuasar } from "quasar";
 
 const $q = useQuasar();
-
-const comingSoonAlert = () => {
-  window.alert("Coming Soon!");
-};
 </script>
 
 <style>
@@ -99,7 +98,7 @@ const comingSoonAlert = () => {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
